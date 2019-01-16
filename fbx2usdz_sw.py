@@ -11,9 +11,6 @@ from os import walk
 # Variables #
 #############
 
-input_fbx = ""
-object_name = ""
-
 # Function to determine what assets are available
 def get_fbx_asset(files_in_directory):
 
