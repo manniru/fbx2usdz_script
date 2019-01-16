@@ -39,7 +39,7 @@ for (dirpath, dirnames, filenames) in walk(cwd):
 # Get fbx asset
 input_fbx = get_fbx_asset(files_in_directory)
 
-output_command_string = './FBX2glTF ' + input_fbx
+output_command_string = './dependencies/FBX2glTF ' + input_fbx
 
 print('------------')
 print('Final output string:')
