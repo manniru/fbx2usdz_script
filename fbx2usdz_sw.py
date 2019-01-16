@@ -5,11 +5,7 @@
 #######################
 
 import os
-import glob
 from os import walk
-
-# Variables #
-#############
 
 # Function to determine what assets are available
 def get_fbx_asset(files_in_directory):
@@ -49,5 +45,4 @@ print('------------')
 print('Final output string:')
 print(output_command_string)
 
-import os
 os.system(output_command_string)
